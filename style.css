@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+}
+
+.menu-principal {
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    background: #000000;
+}
+
+.logo h1 {
+    font-size: 20px;
+    font-weight: bold; /* Adicionando o estilo de negrito */
+}
+
+header div h1 {
+    text-align: center;
+    color: #6897b8;
+    padding: 5px 0;
+}
+
