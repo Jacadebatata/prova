@@ -20,7 +20,131 @@ body {
 
 header div h1 {
     text-align: center;
-    color: #6897b8;
+    color: #6396b9;
     padding: 5px 0;
 }
+
+
+.header {
+    background-color: #6396b9;
+    width: 1680px;
+    height: 150px;
+}
+
+.redes-sociais img {
+    height: 60px; /* Ajuste a altura desejada */
+}
+
+
+.redes-sociais img {
+    height: 70px; /* Ajuste a altura desejada */
+    margin-left: 50px; /* Mover para a direita */
+    margin-right: 50px; /* Mover para a esquerda */
+    margin-top: 20px; /* Mover para cima */
+    margin-bottom: 20px; /* Mover para baixo */
+}
+
+
+.barra-pesquisa {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.barra-pesquisa input[type="text"] {
+    /* Estilos para a barra de pesquisa */
+}
+
+.barra-pesquisa button[type="submit"] {
+    /* Estilos para o botão de pesquisa */
+}
+
+
+.barra-pesquisa {
+    text-align: center;
+    margin-top: -80px; /* Ajuste o valor desejado para mover a barra de pesquisa para cima */
+}
+
+
+.barra-pesquisa input[type="text"] {
+    width: 600px; /* Ajuste o valor desejado para a largura da barra de pesquisa */
+}
+
+.barra-pesquisa input[type="text"] {
+    width: 300px; /* Ajuste o valor desejado para a largura da barra de pesquisa */
+    border-radius: 100px; /* Ajuste o valor desejado para a curvatura das bordas */
+}
+
+
+.barra-pesquisa input[type="text"] {
+    width: 400px; /* Ajuste o valor desejado para a largura da barra de pesquisa */
+}
+
+.barra-pesquisa input[type="text"] {
+    height: 40px; /* Altere o valor para ajustar a altura desejada */
+}
+
+
+
+
+.barra-pesquisa {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px; /* Ajuste o valor para a altura desejada */
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    max-width: 500px; /* Ajuste o valor para a largura máxima desejada */
+margin-top: -70px;}
+
+.barra-pesquisa input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.barra-pesquisa .lupa {
+    position: absolute;
+    right: 10px; /* Ajuste o valor para posicionar a lupa horizontalmente */
+    cursor: pointer;
+}
+
+
+.carrinho {
+    position: relative;
+    cursor: pointer;
+    margin-left: 1500px; /* Ajuste o valor para a margem desejada */
+}
+
+.carrinho .fa-shopping-cart {
+    font-size: 40px;
+}
+
+.carrinho .itens-carrinho {
+    position: absolute;
+    top: 10px; /* Ajuste o valor para posicionar os itens verticalmente */
+    right: -10px; /* Ajuste o valor para posicionar os itens horizontalmente */
+    min-width: 200px; /* Ajuste o valor para a largura mínima desejada */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+
+.carrinho:hover .itens-carrinho {
+    display: block;
+}
+
+
+.carrinho {
+    position: relative;
+    cursor: pointer;
+    margin-left: 1500px; /* Ajuste o valor para a margem desejada */
+    top: -40px; /* Ajuste o valor para a posição vertical desejada */
+}
+
 
