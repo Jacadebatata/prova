@@ -4,15 +4,40 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Whey Protein</title>
+    <style>
+        .product {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .product img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product .name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .product .price {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+    </style>
+    <title>Browth</title>
 </head>
 <body>
-    <header class="header">
+    <header>
         <div class="logo">
             <h1><strong>Qualidade internacional</strong> comprovada e preço direto da fábrica.</h1>
         </div>
         <div class="redes-sociais">
-            <img src="https://lh3.googleusercontent.com/JWKi6ggf38wtM-S7lm2jFP8iiVFTgF9IUtidYlhFadGs46UtssL4RU7Wi698azBnbTqi349s-jdo4lwyH3R1yCl9V2mwjjnUDcEmZBj_1gHL0AFHKNMuc7f6WZxiGf0C_q89B7QQm02xltzM36RfFDwmtBnvBLJkEeXtooEOM_rrFmjgmuRLvFEQ4y4gPnrlA32VAmsFqtmULF5KjslxF3lpZtPDzGUgk8LD3fStnSMzOGBk2poGM94jJhO4LzPdCaPZf6rGWSdOZd66vz5-V-46HYTbxhSBZjNWHDwAhnmmmrrGFF3rsiVUkhNJgWLClvmRK8KioMeTWqVind-zQ1C8Km7UJfoIOk7BbyVu05dovMYWpDBvg9An7AOk8WJr-gBV_FjfGc5GgbcVyvSfYsWPrmyw9rC8xHsl4oIqv0iFR8224MvH--DKM5s8OS3eUySpgnhFFkge0JNMR9_AW9FIoRrOhxavyhKeCAm7M1BCCNYN8ttHWO7YFBfFEkoqmaiDfcZhmZRk0WFhM6Nl4FEljQId1y4Ut3AtNrslvKs-nIoaqR6bFkCu2ku9ieWZwj83wmuoO-D0AJ0fe2HusE1NFntjSVQBxWmTyju7wDQ0mLTxjX1NDHpkgAsSJUXPJ9XBxFrqnvsXmIG27P0pgDjx4xYeNxXswCXXm46eNSyBdYOzZ1HHjBbfaiNjOiTuRVBwP7EZHy7qTWfuy34WTtzM7KwtnRY9Rc4iwO0JLJ8VL-bwOATWrZ7hlCjKN-pDCh2uTOhAXYeFNOKrxzNkVBpz4ViTEFpOUIinZvXTUVax41wBVhcxNQ6EvCeRooAqcekRrE8sy0X8phiSk-y9OWpwBlH-gB9ahNf6R9dD8YaWKX6PtmsWFPmhAHUyyUk1ksZb6AFw2zAIqR7R3NiYAHjiEZJ2f-9SfoAbLTHK6KdfU7KQ=w481-h149-s-no?authuser=0" alt="Descrição da Imagem">
+            <img src="https://lh3.googleusercontent.com/EIlz6YU3-lmhfWmZuVnnBgkKLAUJDVWOdQDvzeg-aZytaX-QyJrYxy8sDsJ1Qia4t1nbIly9nnk9Adn5RLHqA5oEMS7zNHJpbuXkrhUMDkz_-K6bIpkMlvp963dLsYDmK6--mjtDZf_4auIFxkzN3wicki2ooFR1IVSMj0cdmODLzdZ_XlE9DbwTlIiJbX1Apol4PS04c1F2-GNbKyRZdZhjGL8jwGbmmCd3yjgFgZvCG7ZqAXuDxC4L3qf3krnnkM-H1qMZnuwrO6SSQAzrbvzH9AqzmgHtf0GoljTANlOuycjydDFXtauUqP4g_EwOvt6aUzKEst9meLHQ6LVnEXZVX8rGbs2OOMxEjrool7jHGA2fMFD3m-PFg0UEWe2BAu3oivY3brIKmdeMfWXiGOATEa3A-5RKnZy4FRKeJeQ63VTD3cQb1DfRS00QRoXQtkZozz-GWWw9AYibov46kqzw2Nl-4aADkkrVdEXkvG927bD791zprqITVKqVjAqM1f7NytPEvLDFfztnfmKdQ_jIm-xKe-2rhMwjtEqU-AzTfHXUNnaCpsrU8bDN2curKbroFEJv5wNeutoDEYGLetrHvpHkESnh0zBDeS_55ZJY9BpFaaGtjqtslbaHTvqo-DVYRm9iSMBpbt9xfBjzSbyFIxTdHvSuxjhqbB8KE105af-HGihpZ_fSL65EIy4_fgAoEDhNieOc7KlUIAI1_u_qFX7687ZX_3p2V0Lya3F6YzvFcULofV5uHK0gSaI-1DysWEew_Oim-Teq8W3kDwGcraQw0kZad5uweqQULX3zIlnQGg9uZkRrIPDQFeeNnvik-o4pM6WKeVVm8VYkGEBthFyuCeIclfZ4JPCA63OGmMF6HYJjgPs6K7ZmBR3Xqf5Y8Kq423rKIsYXlv1xkC5KYwaaQMdN60TGmQFA_v1K-3tD0-9-TEY9SU5108rc543jM1oVzizS3_CfEis=w481-h149-s-no?authuser=1" alt="Descrição da Imagem">
         </div>
         <div class="barra-pesquisa">
             <input type="text" placeholder="Pesquisar...">
@@ -24,16 +49,11 @@
                 <!-- Aqui serão exibidos os itens do carrinho -->
             </div>
         </div>
-    </header>
-    
-    <div class="produto">
-        <div class="produto-container">
-            <img src="https://static.netshoes.com.br/produtos/100-whey-protein-premium-x-nutry-2-kg-importado-usa-wpc-80/99/6VA-0029-799/6VA-0029-799_zoom1.jpg?ts=1635598372&?ims=544xhttps://static.netshoes.com.br/produtos/100-whey-protein-premium-x-nutry-2-kg-importado-usa-wpc-80/99/6VA-0029-799/6VA-0029-799_zoom1.jpg?ts=1635598372&?ims=1088x" alt="Whey Protein">
-            <h2>Whey Protein 1Kg</h2>
-            <p class="preco">R$ 99,99</p>
-            <a href="whey.html" class="saiba-mais">Saiba mais</a>
+        <div class="product" onclick="window.location.href='https://whey.com/produto/whey-protein-1kg'">
+            <img src="https://cdn.awsli.com.br/600x700/1049/1049095/produto/176621988/7c542f60f9.jpg" alt="Whey Protein 1Kg">
+            <div class="name">Whey Protein 1Kg</div>
+            <div class="price">R$ 99,90</div>
         </div>
-    </div>
-
+    </header>
 </body>
 </html>
