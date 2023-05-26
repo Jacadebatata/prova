@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .product {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .product img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product .name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .product .price {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+    </style>
+    <title>Browth</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1><strong>Qualidade internacional</strong> comprovada e preço direto da fábrica.</h1>
+        </div>
+        <div class="redes-sociais">
+            <img src="img/principal.jpg" alt="Descrição da Imagem">
+        </div>
+        <div class="barra-pesquisa">
+            <input type="text" placeholder="Pesquisar...">
+            <span class="lupa"><i class="fas fa-search"></i></span>
+        </div>
+        <div class="carrinho">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="itens-carrinho">
+                <!-- Aqui serão exibidos os itens do carrinho -->
+            </div>
+        </div>
+        <div class="product" onclick="window.location.href='whey.html'">
+            <img src="img/100-whey-protein-900g-chocolate-18-interno-082022.png" alt="Whey Protein 1Kg">
+            <div class="name">Whey Protein 1Kg</div>
+            <div class="price">R$ 99,99</div>
+        </div>
+    </header>
+</body>
+</html>
